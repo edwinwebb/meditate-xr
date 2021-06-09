@@ -10,9 +10,9 @@ Meditate on the these things
 ## Create React App
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app) and [Create React Three XR App](https://github.com/edwinwebb/cra-template-react-three-fiber-xr).
     
-# Moon Model
+## Moon Model
 Credit: NASA
 Link : https://solarsystem.nasa.gov/resources/2366/earths-moon-3d-model/
 
-# PBR Textures
+## PBR Textures
 Contains assets from CC0Textures.com, licensed under CC0 1.0 Universal.

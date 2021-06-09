@@ -1,5 +1,5 @@
 import React, { Suspense, useRef } from 'react'
-import { Sphere, useGLTF } from '@react-three/drei'
+import { Sphere } from '@react-three/drei'
 import Moon from './Moon'
 import { useXRFrame } from '@react-three/xr';
 
@@ -26,6 +26,4 @@ export default function MoonModel(props) {
     </group>
   )
 }
-
-useGLTF.preload('/moon.glb')
 

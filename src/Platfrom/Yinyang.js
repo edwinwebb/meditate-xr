@@ -7,12 +7,12 @@ export default function Model(props) {
   const group = useRef()
   const { nodes } = useGLTF('/yinyang.glb')
   const [blkCol, blkRough, blkNormal, wytCol, wytRough, wytNormal] = useTexture([
-    'Marble006_1K_Color.jpg',
-    'Marble006_1K_Roughness.jpg',
-    'Marble006_1K_Normal.jpg',
-    'Marble012_1K_Color.jpg',
-    'Marble012_1K_Roughness.jpg',
-    'Marble012_1K_Normal.jpg'
+    process.env.PUBLIC_URL + 'Marble006_1K_Color.jpg',
+    process.env.PUBLIC_URL + 'Marble006_1K_Roughness.jpg',
+    process.env.PUBLIC_URL + 'Marble006_1K_Normal.jpg',
+    process.env.PUBLIC_URL + 'Marble012_1K_Color.jpg',
+    process.env.PUBLIC_URL + 'Marble012_1K_Roughness.jpg',
+    process.env.PUBLIC_URL + 'Marble012_1K_Normal.jpg'
 ])
 
   return (
@@ -54,5 +54,5 @@ export default function Model(props) {
   )
 }
 
-useGLTF.preload('/yinyang.glb')
+useGLTF.preload(process.env.PUBLIC_URL + '/yinyang.glb')
 

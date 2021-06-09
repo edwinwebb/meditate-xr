@@ -23,4 +23,4 @@ export default function Model(props) {
   )
 }
 
-useGLTF.preload('/moon.glb')
+useGLTF.preload(process.env.PUBLIC_URL + '/moon.glb')
