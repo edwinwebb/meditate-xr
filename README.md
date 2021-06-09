@@ -7,6 +7,8 @@ Consider the moon, home to the rabbit and the buffalo, bringer of tides and sun'
 
 Meditate on the these things
 
+[Demo](https://edwinwebb.github.io/meditate-xr/)
+
 ## Create React App
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app) and [Create React Three XR App](https://github.com/edwinwebb/cra-template-react-three-fiber-xr).
     
