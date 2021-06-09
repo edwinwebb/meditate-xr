@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/meditate-xr/static/css/main.431bcd13.chunk.css",
+    "main.js": "/meditate-xr/static/js/main.526407b4.chunk.js",
+    "main.js.map": "/meditate-xr/static/js/main.526407b4.chunk.js.map",
+    "runtime-main.js": "/meditate-xr/static/js/runtime-main.b9eebf36.js",
+    "runtime-main.js.map": "/meditate-xr/static/js/runtime-main.b9eebf36.js.map",
+    "static/js/2.8600e067.chunk.js": "/meditate-xr/static/js/2.8600e067.chunk.js",
+    "static/js/2.8600e067.chunk.js.map": "/meditate-xr/static/js/2.8600e067.chunk.js.map",
+    "index.html": "/meditate-xr/index.html",
+    "static/css/main.431bcd13.chunk.css.map": "/meditate-xr/static/css/main.431bcd13.chunk.css.map",
+    "static/js/2.8600e067.chunk.js.LICENSE.txt": "/meditate-xr/static/js/2.8600e067.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b9eebf36.js",
+    "static/js/2.8600e067.chunk.js",
+    "static/css/main.431bcd13.chunk.css",
+    "static/js/main.526407b4.chunk.js"
+  ]
+}
