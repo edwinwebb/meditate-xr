@@ -5,14 +5,14 @@ import { DoubleSide } from 'three'
 
 export default function Model(props) {
   const group = useRef()
-  const { nodes } = useGLTF('/yinyang.glb')
+  const { nodes } = useGLTF(process.env.PUBLIC_URL + '/yinyang.glb')
   const [blkCol, blkRough, blkNormal, wytCol, wytRough, wytNormal] = useTexture([
-    process.env.PUBLIC_URL + 'Marble006_1K_Color.jpg',
-    process.env.PUBLIC_URL + 'Marble006_1K_Roughness.jpg',
-    process.env.PUBLIC_URL + 'Marble006_1K_Normal.jpg',
-    process.env.PUBLIC_URL + 'Marble012_1K_Color.jpg',
-    process.env.PUBLIC_URL + 'Marble012_1K_Roughness.jpg',
-    process.env.PUBLIC_URL + 'Marble012_1K_Normal.jpg'
+    process.env.PUBLIC_URL + '/Marble006_1K_Color.jpg',
+    process.env.PUBLIC_URL + '/Marble006_1K_Roughness.jpg',
+    process.env.PUBLIC_URL + '/Marble006_1K_Normal.jpg',
+    process.env.PUBLIC_URL + '/Marble012_1K_Color.jpg',
+    process.env.PUBLIC_URL + '/Marble012_1K_Roughness.jpg',
+    process.env.PUBLIC_URL + '/Marble012_1K_Normal.jpg'
 ])
 
   return (

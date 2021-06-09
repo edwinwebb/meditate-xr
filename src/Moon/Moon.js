@@ -8,7 +8,7 @@ import { AdditiveBlending } from 'three'
 
 export default function Model(props) {
   const group = useRef()
-  const { nodes, materials } = useGLTF('/moon.glb')
+  const { nodes, materials } = useGLTF(process.env.PUBLIC_URL + '/moon.glb')
   return (
     <group ref={group} {...props} dispose={null}>
       <mesh 
